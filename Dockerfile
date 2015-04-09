@@ -1,4 +1,4 @@
-FROM dockerfile/java
+FROM java:8
 
 RUN /usr/bin/curl -L http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest | /bin/tar xz
 
